@@ -7,7 +7,7 @@ Tom's build of Andy's Autorustler.
 git submodule update --init --recursive
 
 
-### Disable broken dtoverlay:
+### To disable broken dtoverlay:
 vi userland/host_applications/linux/CMakeLists.txt
 
 (Comment out dtoverlay)
@@ -18,6 +18,8 @@ sudo apt-get install libeigen3-dev
 
 
 ### To build:
+```
 cmake .
-make
 
+make
+```
