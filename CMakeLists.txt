@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 2.8)
 
 find_package(PkgConfig)
 
+add_subdirectory(userland)
+
 project(Autorustler)
 
 pkg_check_modules(EIGEN REQUIRED eigen3)
